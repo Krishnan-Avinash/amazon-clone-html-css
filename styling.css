@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.container{
+    width: 98.7vw;
+    height: 100vh;
+    background-color: brown;
+}
+.topcard{
+    width: 100%;
+    height: 14%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imag{
+    height: 90px;
+    /* margin-left:5px; */
+}
+.imag:hover{
+    border: 2px solid orangered;
+}
+.secondbox{
+    height: 70px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* padding-right: 30px; */
+    padding-right: 10px;
+    margin-left: -2px;
+}
+.secondbox p{
+    color: white;
+    font-size: 1.1rem;
+    text-align: start;
+    margin-left: 35px;
+    margin-top: 4px;
+}
+.location_logo{
+    height: 30px;
+}
+.txt{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 7px;
+}
+.secondlow{
+    display: flex;
+    height: 90px;
+    width: 216px;
+    margin-right: 3px;
+    margin-top: -7px;
+}
+.center{
+    background-color: white;
+    height: 60px;
+    width: 47%;
+    display: flex;
+    justify-content: space-between; 
+    border-radius: 10px;
+    align-items: center;
+}
+.part1{
+    height: 100%;
+    width: 70px;
+    border: 1px solid black;
+    background-color: rgb(219, 219, 219);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.part2{
+    height: 100%;
+    width: 650px;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.part3{
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 80px;
+    background-color: orange;
+    text-align: center;
+    padding-top: 4px;
+    cursor: pointer;
+    transition: all 0.1s linear 0s;
+}
+.third{
+    height: 40px;
+}
+.part3:hover{
+    transform: scale(1.1);
+}
+.ind{
+    height: 20px;
+}
+.forthbox{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.forthbox p{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700 ;
+}
+.fifthbox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.fifthtop{
+    color: white;
+}
+.fifthdown{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.sixthbox{
+    display: flex;
+    flex-direction: column;
+}
+.sixthtop{
+    color: white;
+}
+.sixthdown{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.cart{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.seventh{
+    display: flex;
+    margin-right: 20px;
+}
+.seventh p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.secondbox:hover{
+    border: 1px solid white;
+}
+.forthbox:hover{
+    border: 1px solid white;
+}
+.fifthbox:hover{
+    border: 1px solid white;
+}
+.sixthbox{
+    padding: 10px;
+}
+.sixthbox:hover{
+    border: 1px solid white;
+}
+.seventh{
+    padding: 10px;
+}
+.seventh:hover{
+    border: 1px solid white;
+}
+.mainimg{
+    width: 100%;
+    height: 125%;
+    position: absolute;
+}
+.mainsegment{
+    background-color: brown;
+
+}
+.things1 div{
+    position: relative;
+}
+.things1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+    .imag1, .imag2, .imag3, .imag4, .imag5, .imag6, .imag7, .imag8{
+        height: 250px;
+}
+.img1{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+.img1 p{
+    font-size: 2rem;
+}
+.p1{
+    padding-top: 20px;
+    font-weight: 900;
+}
+.p2{
+    padding-top: 5px;
+}
+.imag1{
+    margin-top: 15px;
+    border: 1px solid black;
+}
+.img1{
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img1:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.img2:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.img3:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.img4:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.imag2{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.imag3{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.imag4{
+    width: 90%;
+    height: 55%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.img2{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img3{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img4{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img2 p{
+    font-size: 2rem;
+}
+.img3 p{
+    font-size: 2rem;
+}
+.img4 p{
+    font-size: 2rem;
+}
+.things2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.things2 div{
+    position: relative;
+}
+.imag5{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 15px;
+    height: 55%;
+}
+.img5:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.img5{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img5 p{
+    font-size: 2rem;
+}
+.img6{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img6:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.imag6{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 37px;
+    height: 60%;
+}
+.img6 p{
+    font-size: 2rem;
+}
+
+.img7{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img7:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.imag7{
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 37px;
+    height: 60%;
+}
+.img7 p{
+    font-size: 2rem;
+}
+.img8{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    transition: all 0.1s linear 0s;
+    border: 2px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.img8 p{
+    font-size: 2rem;
+}
+.imag8{
+    width: 90%;
+    height: 55%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.img8:hover{
+    transform: scale(1.05);
+    border: 4px solid black;
+}
+.secondtopcard{
+    width: 100%;
+    height: 5%;
+    background-color: #274141;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.1rem;
+    align-items: center;
+    font-weight: 400;
+}
+.secondtop_left{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 25px;
+}
+.secondtop1, .secondtop2, .secondtop3, .secondtop4, .secondtop5, .secondtop6{
+    /* height: 98%;
+    width: 100%; 
+    text-align: center;   */
+    height: 100%;
+    padding-top: 8px;
+}
+.secondtop1:hover, .secondtop2:hover, .secondtop3:hover, .secondtop4:hover, .secondtop5:hover, .secondtop6:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.secondtop_right{
+    margin-right: 25px;
+    height: 100%;
+    padding-top: 8px;   
+}
+.secondtop_right:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.backtotop{
+    height: 8%;
+    background-color: #274141;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.backtotop p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* text-decoration: none; */
+    color: white;
+}
+#Bokmark{
+    text-decoration: none;
+}
+.backtotop:hover{
+    background-color: #274141c2;
+}
+.lastpart{
+    height: 60vh;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.box1, .box2, .box3, .box4{
+    background-color: inherit;
+    /* height: 500px; */
+    /* width: 300px; */
+    color: white;
+    margin-top: 90px;
+}
+.box1{
+    /* height: 170px; */
+    margin-left: 50px;
+}
+.box3{
+    margin-left: -20px;
+}
+.listelements_box1 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.listelements_box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.listelements_box1 p a:hover{
+    text-decoration: underline;
+}
+.lastpart .box1 .box1_p1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.listelements_box2 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.listelements_box2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.listelements_box2 p a:hover{
+    text-decoration: underline;
+}
+.lastpart .box2 .box2_p1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.listelements_box3 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.listelements_box3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.listelements_box3 p a:hover{
+    text-decoration: underline;
+}
+.lastpart .box3 .box3_p1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.listelements_box4 p a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.listelements_box4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.listelements_box4 p a:hover{
+    text-decoration: underline;
+}
+.lastpart .box4 .box4_p1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.finishing{
+    height: 20vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.123);
+}
+.lastpartimage{
+    height: 100px;
+}
